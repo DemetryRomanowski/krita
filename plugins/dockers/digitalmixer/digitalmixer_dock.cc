@@ -232,4 +232,3 @@ void DigitalMixerDock::canvasResourceChanged(int key, const QVariant& v)
         setCurrentColor(v.value<KoColor>());
     m_tellCanvas = true;
 }
-
